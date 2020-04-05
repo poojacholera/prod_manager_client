@@ -1,0 +1,27 @@
+/*@font-face {
+    font-family: ZilapMagic;
+    src: url("../font/ZilapMagic-vmnRM.ttf");
+    src: url("../font/ZilapMagic-vmnRM.ttf") format("truetype");
+}*/
+@font-face {
+    font-family: Halfbred;
+    src: url("../font/Halfbred-jEEq0.ttf");
+    src: url("../font/Halfbred-jEEq0.ttf") format("truetype"),
+    url("../font/Halfbred-ALLz6.otf") format("opentype");
+}
+.navbar{
+    background-color: darkcyan;
+    color: antiquewhite;
+    font-family: Halfbred,serif;
+}
+.headerText{
+    color: antiquewhite;
+    text-decoration-color: antiquewhite;
+    font-family: Halfbred, serif;
+    font-weight: bold;
+}
+.whiteText{
+    color: antiquewhite;
+    text-decoration-color: antiquewhite;
+    font-palette: light;
+}
